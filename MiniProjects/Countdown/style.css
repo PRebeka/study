@@ -1,0 +1,87 @@
+*,
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: #E0E0E0;
+}
+
+.container {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    border-radius: 0.5rem;
+    width: 80%;
+    text-align: center;
+    position: relative;
+    top: 3rem;
+}
+
+.container input {
+    font-size: 6rem;
+    background-color: transparent;
+    width: 25%;
+    border: none;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.container form {
+    padding: 15rem;
+}
+
+.container_btn {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5rem;
+    margin-top: 1rem;
+}
+
+.container_btn button {
+    width: 15%;
+    padding: 0.3rem;
+    border-radius: 0.3rem;
+    background-color: white;
+    border: none;
+
+}
+
+.popup {
+    font-family: 'Montserrat', sans-serif;
+    visibility: hidden;
+    margin: 0 auto;
+    width: 30%;
+    text-align: center;
+    position: relative;
+    bottom: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: white;
+    box-shadow:#4b4b4b 2px 2px 2px;
+}
+.popup input{
+    background-color: transparent;
+    width: 25%;
+    text-align: right;
+    font-family: 'Montserrat', sans-serif;
+}
+.header{
+    background-color: #4b4b4b;
+    color: white;
+    padding: 1rem;
+    font-size: 1.2rem;
+    text-align: left;
+}
