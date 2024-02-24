@@ -56,3 +56,5 @@ input.addEventListener("keypress", function(event) {
         document.getElementById("searchButton").click();
     }
 });
+
+console.log("teszt");
